@@ -1,1 +1,3 @@
-console.log("Hello TypeScript!");
+import '../src/creational/singleton';
+
+console.log('Desing Patterns');
