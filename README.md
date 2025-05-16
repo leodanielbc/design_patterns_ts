@@ -1,6 +1,6 @@
-# design_patterns
+# Design patterns with Typescript
 
-Proyecto inicializado con TypeScript y configurado automáticamente.
+Ejemplos de implementacion de patrones de diseño
 
 ## 🚀 Scripts disponibles
 
