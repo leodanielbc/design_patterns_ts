@@ -6,13 +6,13 @@ El patrón **Singleton** asegura que una clase tenga **una única instancia** y 
 
 Es uno de los patrones de creación más utilizados en desarrollo de software, especialmente útil en sistemas donde compartir recursos o configuración centralizada es clave.
 
----
+
 
 ## 📦 Intención
 
-> Garantizar que una clase solo tenga una instancia y proporcionar un acceso global a dicha instancia.
+Garantizar que una clase solo tenga una instancia y proporcionar un acceso global a dicha instancia.
 
----
+
 
 ## 🧠 Cuándo usarlo en Backend
 
