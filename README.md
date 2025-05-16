@@ -2,6 +2,8 @@
 
 Ejemplos de implementacion de patrones de diseño
 
+- [Singleton](https://github.com/leodanielbc/design_patterns_ts/blob/master/src/creational/singleton/README.md)
+
 ## 🚀 Scripts disponibles
 
 - `npm run start`: Ejecuta el proyecto con ts-node.
