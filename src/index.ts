@@ -1,3 +1,4 @@
 import '../src/creational/singleton';
+import '../src/creational/factory';
 
-console.log('Desing Patterns');
+console.log('Design Patterns');

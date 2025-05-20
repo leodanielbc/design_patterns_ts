@@ -8,7 +8,7 @@ Es uno de los patrones de creación más utilizados en desarrollo de software, e
 
 
 
-## 📦 Intención
+## 📦 Objetivo
 
 Garantizar que una clase solo tenga una instancia y proporcionar un acceso global a dicha instancia.
 
