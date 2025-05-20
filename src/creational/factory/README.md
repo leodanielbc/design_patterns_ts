@@ -4,24 +4,23 @@
 
 El patrón **Factory Method** es un patrón de diseño **creacional** que proporciona una manera de crear objetos sin especificar la clase concreta que se va a instanciar. En lugar de usar directamente `new`, se delega la lógica de instanciación a una **fábrica**.
 
----
-
 ## 🎯 Objetivo
 
 > Delegar la creación de objetos a una clase especializada que determine qué tipo de instancia devolver, según el contexto o configuración.
 
----
-
 ## 💡 Cuándo Usarlo en el Backend
 
-### 🔁 1. Integraciones con múltiples proveedores
-Cuando necesitas cambiar entre servicios como Stripe, PayPal o MercadoPago, dependiendo de configuración o país.
+- Integraciones con múltiples proveedores
+    Cuando necesitas cambiar entre servicios como Stripe, PayPal o MercadoPago, dependiendo de configuración o país.
 
-```ts
-const payment = PaymentFactory.create("stripe");
-gateway.charge(100);
+- Adaptadores de servicios
+    Por ejemplo, elegir entre Amazon S3, Google Cloud Storage o disco local para almacenar archivos.
 
-# Patrón de Diseño - Factory
+- Autenticación dinámica
+    Decidir entre autenticación JWT, API Key u OAuth dependiendo del tipo de request.
+
+- Comportamiento según entorno
+    Crear instancias específicas para entornos dev, test o prod.
 
 ## ✅ Ventajas
 
