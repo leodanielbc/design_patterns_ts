@@ -41,11 +41,9 @@ El patrón **Factory Method** es un patrón de diseño **creacional** que propor
 
 ## 🧱 Estructura del Patrón
 
-```mermaid
-graph TD
-    Cliente -->|Solicita creación| Factory
-    Factory -->|Devuelve instancia| ClaseConcretaA
-    Factory -->|Devuelve instancia| ClaseConcretaB
+Cliente -->|Solicita creación| Factory
+Factory -->|Devuelve instancia| ClaseConcretaA
+Factory -->|Devuelve instancia| ClaseConcretaB
 
 - Factory: Clase con un método create() que retorna una instancia de una interfaz común.
 
