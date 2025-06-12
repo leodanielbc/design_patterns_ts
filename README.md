@@ -4,7 +4,7 @@ Ejemplos de implementacion de patrones de diseño
 
 - [Singleton](https://github.com/leodanielbc/design_patterns_ts/blob/master/src/creational/singleton/README.md)
 - [Factory](https://github.com/leodanielbc/design_patterns_ts/blob/master/src/creational/factory/README.md)
-- [Builder] (https://github.com/leodanielbc/design_patterns_ts/blob/master/src/creational/builder/README.md)
+- [Builder](https://github.com/leodanielbc/design_patterns_ts/blob/master/src/creational/builder/README.md)
 
 ## 🚀 Scripts disponibles
 
