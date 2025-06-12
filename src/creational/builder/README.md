@@ -51,7 +51,6 @@ El patrón Builder tiene los siguientes componentes principales:
 
 🧩 Diagrama Visual
 ```mermaid
-graph TD
     Client
     |
     | llama a métodos
