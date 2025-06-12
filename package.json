@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/index.ts",
     "build": "tsc",
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down -v"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +19,10 @@
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "pg": "^8.16.0",
+    "typeorm": "^0.3.24",
+    "typeorm-pagination": "^2.0.3"
   }
 }
