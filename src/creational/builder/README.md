@@ -51,9 +51,7 @@ El patrón Builder tiene los siguientes componentes principales:
 
 🧩 Diagrama Visual
 ```mermaid
-    Client
-    |
-    | llama a métodos
-    v
-    Builder -------------> Producto final
+graph TD
+    Cliente -->|Usa| Builder
+    Builder -->|Paso a paso| ProductoFinal
 
