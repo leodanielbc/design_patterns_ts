@@ -34,3 +34,17 @@ const userUpdated = messagePrototype.clone({
 sendToSqs(userUpdated);
 
 
+//Ejemplo de clonación con structuredClone
+// Esto es útil si queremos clonar un objeto que ya tiene una estructura compleja
+// y no queremos perder la referencia a los objetos anidados.
+
+const clonedUser = structuredClone(userCreated);
+clonedUser.eventType = 'USER_CLONED';
+
+console.log('cloned', clonedUser);
+console.log('original: ', userCreated);
+
+
+
+
+
